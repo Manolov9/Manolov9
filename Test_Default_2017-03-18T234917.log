@@ -1,0 +1,63 @@
+﻿VS filter: testpath:TestAssembly:Test/Feature:LoginUSER/Scenario:Check+Login+Panel+with+correct+Admin+user
+Discovering target: Default
+Discovering tests from assembly: D:\AboveGoal\AutomationTestsLM\Test\Test\bin\Debug\Test.dll
+Appdomain Disposed
+Test Suite Dump
+#0: Test/Default - 
+#1: Default - 
+#2: Test - 
+#3: LoginUSER - 
+#4: Check Login Panel with correct Admin user - TestAssembly:Test/Feature:LoginUSER/Scenario:Check+Login+Panel+with+correct+Admin+user
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread
+Thread#0:Scheduler: using testitem #4 for thread
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Lucho\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.5.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:B:Given Setup
+Thread#0:T:done: LoginUSERSteps.GivenSetup() (0.0s)
+Thread#0:B:And Fill information from the user
+Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+Thread#0:T:        [Given(@"Fill information from the user")]
+Thread#0:T:public void GivenFillInformationFromTheUser()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:B:When Checksteps
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Ifallstepsarecorrectlycompletedthendriverwillclosethebrowser
+Thread#0:T:skipped because of previous errors
+Thread#0:T:Pending: No matching step definition found for one or more steps.
+Thread#0:T:using System;
+Thread#0:T:using TechTalk.SpecFlow;
+Thread#0:T:namespace MyNamespace
+Thread#0:T:{
+Thread#0:T:    [Binding]
+Thread#0:T:    public class StepDefinitions
+Thread#0:T:    {
+Thread#0:T:        [Given(@"Fill information from the user")]
+Thread#0:T:public void GivenFillInformationFromTheUser()
+Thread#0:T:{
+Thread#0:T:    ScenarioContext.Current.Pending();
+Thread#0:T:}
+Thread#0:T:    }
+Thread#0:T:}
+Thread#0:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread 
+Thread#0: Test #4/0 is finished on thread #0 as Pending within 0.2179896 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 1
+Skipped: 0
+Failed: 0
